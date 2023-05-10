@@ -1,4 +1,7 @@
 import javax.swing.*;
+
+import Bullet.Pea;
+
 import java.awt.event.ActionEvent;
 public class Peashooter extends Plant {
 

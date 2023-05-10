@@ -1,5 +1,7 @@
-package Plants;
+package Bullet;
 import java.awt.*;
+
+import Plants.Plant;
 public class Pea extends Plant {
     private int posX;
     private int GamePanel gp;
