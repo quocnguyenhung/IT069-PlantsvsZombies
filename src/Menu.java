@@ -42,7 +42,7 @@ public class Menu extends JPanel {
 
     private void playSound() {
         try {
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("PlantsVsZombies - GardenerVersion/src/audios/crazydave8bit.wav").getAbsoluteFile());
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("IT069-PlantsvsZombies/src/audios/crazydave8bit.wav").getAbsoluteFile());
             clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.loop(Clip.LOOP_CONTINUOUSLY);
