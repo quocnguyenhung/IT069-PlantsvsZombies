@@ -435,7 +435,7 @@ public class GamePanel extends JLayeredPane{
 
     private void playSound() {
         try {
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("PlantsVsZombies - GardenerVersion/src/audios/PVZ Loonboon 8bit Remix.wav").getAbsoluteFile());
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("IT069-PlantsvsZombies/src/audios/PVZ Loonboon 8bit Remix.wav").getAbsoluteFile());
             clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.loop(Clip.LOOP_CONTINUOUSLY);
